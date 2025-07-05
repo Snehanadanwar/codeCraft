@@ -4,7 +4,6 @@ const http = require("http");
 const path = require("path");
 const { Server } = require("socket.io");
 const ACTIONS = require("./src/Actions");
-require('dotenv').config();
 
 const server = http.createServer(app);
 

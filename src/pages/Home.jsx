@@ -32,13 +32,15 @@ const Home = () => {
   return (
     <div className="homePageWrapper">
       <div className="formWrapper" action="">
-        <img
-          className="m-3"
-          src="/logo.png"
-          style={{ width: 90 + "%" }}
-          alt="logo"
-        />
-        <h4 className="mainLabel">Enter your joining info...</h4>
+        <div style={{ textAlign: "center" }}>
+          <img
+            className="m-3"
+            src="/logoCC.png"
+            style={{ width: 60 + "%" }}
+            alt="logo"
+          />
+        </div>
+        <h4 className="mainLabel">Enter your room info...</h4>
         <div className="inputGroup">
           <input
             type="text"
@@ -81,21 +83,16 @@ const Home = () => {
           </span>
         </div>
         <div class="alert alert-info mt-3" role="alert">
-          ✨✨ Code, share and see your creations come to life in real-time with
-          our powerful code editor 💙"
+          ✨✨ Write, share, and watch your code come alive — all in real-time
+          with our powerful editor. 💙"
         </div>
       </div>
       <footer>
         <h4>
           &#169; created by{" "}
-          <a
-            href="https://www.linkedin.com/in/
-
-"
-          >
-            Krishna
+          <a href="https://www.linkedin.com/in/sneha-nadanwar-52895a282/">
+            Sneha
           </a>{" "}
-          💚
         </h4>
       </footer>
     </div>

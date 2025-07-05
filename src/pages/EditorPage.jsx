@@ -94,12 +94,14 @@ const EditorPage = () => {
       <div className="side">
         <div className="sideInner">
           <div className="logo mb-4">
-            <img
-              className="logoImage"
-              style={{ width: 100 + "%" }}
-              src="/logo.png"
-              alt="logo"
-            />
+            <div style={{ textAlign: "center" }}>
+              <img
+                className="logoImage"
+                style={{ width: 80 + "%" }}
+                src="/logoCC.png"
+                alt="logo"
+              />
+            </div>
             <hr
               style={{
                 background: "#fcba03",
